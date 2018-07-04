@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Variability">
+    <output-path>$PROJECT_DIR$/out/artifacts/Variability</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="VariabilityGui" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/files/icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Variance calculation" />
+        <option name="vendor" value="Kolchiba Mykyta" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Variability.jar">
+        <element id="module-output" name="Variability" />
+        <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      </element>
+    </root>
+  </artifact>
+</component>
